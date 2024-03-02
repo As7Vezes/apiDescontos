@@ -1,7 +1,5 @@
 import { Router } from "express";
 import { Request, Response } from "express";
-import { allProductsMercadoLivre } from "../controllers/AllProductsMercadoLivre";
-import { getallProducts } from "../controllers/GetAllProductsMercadoLivre";
 import { executarScriptEEnviarDados } from "../services/scriptPost";
 
 const router: Router = Router();
